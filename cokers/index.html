@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link href="css/base.css" type="text/css" rel="stylesheet"> -->
+<title>Alvis Coker</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+body {
+	margin: 0;
+}
+#container {
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+}
+
+header {
+	color: #000;
+	background: #CFB86A;
+	padding: 20px;
+}
+
+header h1 { 
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	margin: 0; 
+}
+
+nav {
+	float: left;
+	width: 100%;
+	background: #333;
+}
+
+nav ul {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav li a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+nav li a:hover { 
+	background: #838271; 
+}
+
+nav li a.current { 
+	background: #CFB86A;
+}
+
+#content-container {
+	float: left;
+	width: 100%;
+	background: #FFF repeat-y 68% 0;
+}
+
+#content {
+	clear: left;
+	float: left;
+	width: 60%;
+	padding: 20px 0;
+	margin: 0 0 0 4%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#content h2 { 
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #CC5F39;
+	margin: 0; 
+	font-size: 4em;
+	text-shadow: 0 2px white, 0 3px #ccc;
+}
+
+#content h3 { 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #CC5F39;
+	margin: 0; 
+	font-size: 1.5em;
+}
+
+aside {
+	float: right;
+	width: 26%;
+	padding: 20px 0;
+	margin: 0 3% 0 0;
+	xdisplay: inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .8em;
+}
+
+aside h3 { 
+	color: #CC5F39;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin: 0; 
+}
+
+footer {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	clear: left;
+	color: #fff;
+	background: #4D4D4D;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+
+</style>
+</head>
+<body>
+<div id="container">
+<header>
+<h1>Western Hall of Fame</h1>
+</header>
+<nav>
+<ul>
+<li><a href="index.html" class="current">Home</a></li>
+<li><a href="alvis.html">Alvis</a></li>
+<li><a href="alva.html">Alvadean</a></li>
+<li><a href="sandy.html">Sandy</a></li>
+<li><a href="shows.html">shows</a></li>
+</ul>
+</nav>
+<div id="content-container">
+<div id="content">
+</br>
+<p>Jim Reeves was producer for Alvadean Coker and the Coker Family Band. He was responsible for bringing a lot of country artists from Nashville to perform the shows at Compton. Here's Jim now with a medley from one of his performances at the "Town Hall Party."</p>
+<div class="video-container">
+<iframe src="http://www.youtube.com/embed/Z_gnq5hbdOE?rel=0" frameborder="0" allowfullscreen></iframe>
+</div><!-- End Video Container -->
+<p>The Cokers are originally from a ranch in Faulkner County, Arkansas. They moved to Bakersville, California, and made Rockabilly records in Nashville and Hollywood.</p>
+<div class="video-container">
+<iframe src="http://www.youtube.com/embed/MuuATr6dkg0" frameborder="0" allowfullscreen></iframe>
+</div><!-- End Video Container -->
+</div><!-- End Content -->
+<aside>
+<h3>Disclaimer</h3>
+<p>
+Video links are provided for commentary, opinions and entertainment according to fair use under the Copyright Act. This website contains no encoded video. It is made entirely with links to Youtube embed codes.
+</p>
+</aside>
+<footer>&copy; Worldwide Web Development & Design.</footer>
+</div><!-- End Content Container -->
+</div><!-- End Container -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<script>
+$("#content h2").fitText(1.1, { minFontSize: '23px', maxFontSize: '60px' });
+$("#content h3").fitText(1.6);
+$(".video-container").fitVids();
+</script>
+</body>
+</html>
