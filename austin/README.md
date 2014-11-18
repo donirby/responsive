@@ -1,7 +1,7 @@
-Responsive Media
+The Coker Family Band
 ====
 
-Repo for developing responsive media code 
+A container of youtube videos based on the responsive media repository 
 
 [DONIRBY.INFO](http://donirby.info)
 
