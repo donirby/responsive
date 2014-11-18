@@ -1,4 +1,4 @@
-The Coker Family Band
+Denise Austin Yoga Classes
 ====
 
 A container of youtube videos based on the responsive media repository 
