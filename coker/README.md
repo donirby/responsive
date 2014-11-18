@@ -1,4 +1,4 @@
-Responsive Media
+The Coker Family Band
 ====
 
 A container of youtube videos based on the responsive media repository  
