@@ -1,11 +1,11 @@
-donirby.info
+Responsive Media
 ====
 
-Repo for donirby.info
+Repo for developing responsive media code 
 
 [DONIRBY.INFO](http://donirby.info)
 
-[DONIRBY.NET](http://donirby.net)
+[Coker Family Band](http://donirby.net/coker)
 
-[DONIRBY.COM](http://donirby.com)
+[Denise Austin Yoga](http://donirby.com/austin)
 
