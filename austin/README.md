@@ -1,4 +1,4 @@
-Denise Austin Yoga Classes
+Denise Austin Yoga
 ====
 
 A container of youtube videos based on the responsive media repository 
