@@ -1,7 +1,7 @@
 Responsive Media
 ====
 
-Repo for developing responsive media code 
+a repository for developing responsive media websites
 
 [DONIRBY.INFO](http://donirby.info)
 
