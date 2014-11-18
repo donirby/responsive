@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link href="css/base.css" type="text/css" rel="stylesheet"> -->
+<title>Denise Austin</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+body {
+	margin: 0;
+}
+#container {
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+}
+
+header {
+	color: #000;
+	background: #CFB86A;
+	padding: 20px;
+}
+
+header h1 { 
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	margin: 0; 
+}
+
+nav {
+	float: left;
+	width: 100%;
+	background: #333;
+}
+
+nav ul {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav li a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+nav li a:hover { 
+	background: #838271; 
+}
+nav li a.current { 
+	background: #CFB86A;
+}
+
+#content-container {
+	float: left;
+	width: 100%;
+	background: #FFF repeat-y 68% 0;
+}
+
+#content {
+	clear: left;
+	float: left;
+	width: 60%;
+	padding: 20px 0;
+	margin: 0 0 0 4%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#content h2 { 
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #CC5F39;
+	margin: 0; 
+	font-size: 4em;
+	text-shadow: 0 2px white, 0 3px #ccc;
+}
+
+#content h3 { 
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #CC5F39;
+	margin: 0; 
+	font-size: 1.5em;
+}
+
+aside {
+	float: right;
+	width: 26%;
+	padding: 20px 0;
+	margin: 0 3% 0 0;
+	xdisplay: inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .8em;
+}
+
+aside h3 { 
+	color: #CC5F39;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin: 0; 
+}
+
+footer {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	clear: left;
+	color: #fff;
+	background: #4D4D4D;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<header>
+<h1>Denise Austin</h1>
+</header>
+<nav>
+<ul>
+<li><a href="index.html" class="current">Home</a></li>
+<li><a href="yoga.html">Yoga</a></li>
+<li><a href="core.html">Core</a></li>
+<li><a href="card.html">Cardio</a></li>
+</ul>
+</nav>
+<div id="content-container">
+<div id="content">
+<p>
+<div class="video-container">
+<iframe src="http://www.youtube.com/embed/daoU86HqYPg?rel=0" frameborder="0" allowfullscreen></iframe>
+</div><!-- End Video Container -->
+</p>
+<p>This website is a collection of Youtube videos made by Denise Austin of her Yoga workouts. It was made for people who aren't Yoga regulars, but like to do a little bit occasionally. Denise performs all the standard posing routines with correct form and movement. You may not want to become an expert or memorize the routines, but if you follow along with her, you can get some of its benefits by giving it a try from time to time.</p>
+<p>To the best of my knowledge and belief Denise Austin uploads her videos to Youtube through a company that she owns. This website does not contain any of her video encoding. It is made entirely with links that point to her embed code at Youtube. If you want to know more about her work, you should contact her.</p>
+<p>This website was built to run with any modern device: phone, tablet, laptop or PC. It has simple pages without any fancy bells and whistles. The video player works well with current up to date browsers. However, mobile device testing was limited to simulations on a PC. It has not been tested on older browsers.      
+
+</div><!-- End Content -->
+<aside>
+</aside>
+<footer>&copy; Worldwide Web Development & Design.</footer>
+</div><!-- End Content Container -->
+</div><!-- End Container -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<script>
+$("#content h2").fitText(1.1, { minFontSize: '23px', maxFontSize: '60px' });
+$("#content h3").fitText(1.6);
+$(".video-container").fitVids();
+</script>
+</body>
+</html>
