@@ -1,11 +1,11 @@
 Responsive Media
 ====
 
-a repository for developing responsive media websites
+A repository for developing responsive media websites
 
-[DONIRBY.INFO](http://donirby.info)
+[Responsive Media](http://donirby.net/responsive)
 
-[Coker Family Band](http://donirby.net/coker)
+[Coker Family Band](http://donirby.net/responsive/coker)
 
-[Denise Austin Yoga](http://donirby.com/austin)
+[Denise Austin Yoga](http://donirby.com/responsive/austin)
 
